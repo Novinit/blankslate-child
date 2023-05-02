@@ -1,0 +1,237 @@
+/*
+Theme Name:  BlankSlate
+Template: 	 blankslate
+Theme URI:	 https://wordpress.org/themes/blankslate/
+Author:		 ChildThemeWP
+Author URI:	 https://childthemewp.com
+Version:	 1.0.0
+License:	 GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tags:    	 opensource     
+Text Domain: blankslatechild
+*/
+
+
+/* Main  background */
+
+body {
+    max-width: 1440px;
+    margin:auto;   
+}
+
+#wrapper {
+    background-color: #ECE2DA;
+}
+
+#header {
+    max-height: 80px;
+    display: flex;
+    background-color: #fff;
+}
+
+
+/* Fonts */
+
+p {
+    color:#000000;
+    font-family: 'Syne', sans-serif;
+    font-weight:400;
+    font-size:20px;
+    line-height:24px;
+    text-decoration: none;
+}
+
+h2 {
+    color:#3B8E46;
+    font-family: 'Syne', sans-serif;
+    font-weight:800;
+    font-size:38px;
+    line-height:46px;
+    text-decoration: none;
+}
+
+h3 {
+    color:#3B8E46;
+    font-family: 'Syne', sans-serif;
+    font-weight:700;
+    font-size:30px;
+    line-height:36px;
+    text-decoration: none;
+}
+
+h4 {
+    color:#ffffff;
+    font-family: 'Syne', sans-serif;
+    font-weight:800;
+    font-size:48px;
+    line-height:58px;
+    text-decoration: none;
+
+}
+
+.gout  {
+    color:#D2776A;
+    font-family: 'Syne', sans-serif;
+    font-weight:800;
+    text-decoration: uppercase;
+}
+
+.pensent  {
+    color:#3B8E46;
+    font-family: 'Syne', sans-serif;
+    font-weight:700!important;
+    font-size:30px!important;
+    line-height:36px;
+    text-decoration: none;
+    margin:0px!important;
+    margin-top:6px!important;  
+}
+
+.pensent_texte {
+    color:#000000;
+    font-family: 'Syne', sans-serif;
+    font-weight:400;
+    font-size:16px;
+    line-height:19px;
+    text-decoration: none;
+    margin:0px!important;
+    margin-top:3px!important;
+}
+   
+
+
+
+/* Theme adaptations */
+
+.header {
+    display:none;
+}
+
+
+#sidebar {
+    display:none;
+}
+
+.wp-block-columns {
+    margin:0px!important;
+}
+
+.wp-block-button {
+    max-width: 198px!important;
+    height: 55px!important;
+    background-color: #E0B9B4;
+    border-radius: 5px!important;
+    color : #ffffff;
+    font-size:15px!important;
+    font-family: 'Syne', sans-serif!important;
+
+}
+
+.wp-block-button__link {
+    background-color: #E0B9B4;
+}
+
+.wp-block-button__link a:hover code{
+    background-color: #E0B9B4;
+    text-decoration: underline!important;
+}
+
+/* logo in header */
+
+
+#branding {
+    width:30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left:37px;    
+}
+
+#branding img {
+    width:201px;
+    height:19px
+}
+
+/* Main menu styling */
+
+#menu {
+    width:70%;
+    display: flex;
+    text-align: right;
+    justify-content: right;
+    
+    
+}
+
+
+ul#menu-navigation {
+	width:100%;
+	list-style: none;
+	margin-top:0px;
+    min-height:80px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
+
+ul#menu-navigation li {
+	display: inline;    
+    padding-left:50px; padding-right:50px;
+    min-height:80px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
+
+ul#menu-navigation li a{
+	color:#000000;
+    font-family: 'Syne', sans-serif;
+    font-weight:400;
+    font-size:16px;
+    line-height:19px;
+    text-decoration: none;
+}
+
+ul#menu-navigation li a:hover{	
+    text-decoration: underline;
+}
+
+.commandbutton{
+    width:236px;
+    height:80px;
+    background-color: #DC9F96;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    color:#ffffff;
+    font-family: 'Syne', sans-serif;
+    font-weight:500;
+    font-size:16px;
+    line-height:19px;
+    text-decoration: none;
+}
+
+.commandbutton:hover{   
+    text-decoration: underline;
+}
+
+.introimage {
+    border-bottom: 10px solid  #E3D9D0!important;
+}
+
+.whitetextblock {
+    background-color:#ffffff!important;
+}
+
+
+.fruit_block {
+   display: flex;
+   justify-content: center;
+}
+
+
+.pensent_column {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
