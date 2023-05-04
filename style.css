@@ -136,6 +136,12 @@ h4 {
     text-decoration: underline!important;
 }
 
+/* theme margin under figures */
+.wp-block-column.is-layout-flow figure{
+    margin-bottom:0px;   
+ }
+
+
 /* logo in header */
 
 
@@ -235,3 +241,34 @@ ul#menu-navigation li a:hover{
     justify-content: center;
     align-items: center;
 }
+
+/* Footer */
+
+.footerinfo {
+    background-color: #ffffff;
+    width:100%;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+   
+
+.footerinfo a {
+    color:#000000;
+    font-family: 'Syne';
+    font-style: normal;
+    font-weight: 400;   
+    font-size: 16px;
+    line-height: 19px;
+    text-decoration: none;
+}
+
+.footerinfo a:hover {
+    text-decoration: underline;
+}
+    
+
+
+
+
