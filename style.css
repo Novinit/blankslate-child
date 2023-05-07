@@ -30,7 +30,9 @@ body {
 }
 
 
-/* Fonts */
+
+/*** Fonts ***/
+
 
 p {
     color:#000000;
@@ -50,6 +52,11 @@ h2 {
     text-decoration: none;
 }
 
+.first_block h2 {
+    color:#D2776A; 
+    margin:0px;
+}
+
 h3 {
     color:#3B8E46;
     font-family: 'Syne', sans-serif;
@@ -57,6 +64,10 @@ h3 {
     font-size:30px;
     line-height:36px;
     text-decoration: none;
+}
+
+.equipe h3 {
+    color:#000000;
 }
 
 h4 {
@@ -100,8 +111,9 @@ h4 {
    
 
 
-
+/*                   */
 /* Theme adaptations */
+/*                   */
 
 .header {
     display:none;
@@ -136,6 +148,10 @@ h4 {
     text-decoration: underline!important;
 }
 
+.no_padding {
+    padding:0px!important;
+}
+
 /* theme margin under figures */
 .wp-block-column.is-layout-flow figure{
     margin-bottom:0px;   
@@ -158,7 +174,14 @@ h4 {
     height:19px
 }
 
-/* Main menu styling */
+
+/*** General **/
+.grey_spacer{
+    background-color:#ECE2DA;
+    border-radius: 50% / 0 0 100% 100%;
+}
+
+/*** Main menu styling ***/
 
 #menu {
     width:70%;
@@ -242,7 +265,7 @@ ul#menu-navigation li a:hover{
     align-items: center;
 }
 
-/* Footer */
+/*** Footer ***/
 
 .footerinfo {
     background-color: #ffffff;
@@ -270,5 +293,22 @@ ul#menu-navigation li a:hover{
     
 
 
+/*** Page Nous rencontrer ***/
 
 
+.first_block {
+    background-image: url(http://planty.local/wp-content/uploads/2023/05/Flower-background.png);
+    margin-left:11%!important;
+    margin-right:11%!important;
+    margin-top:90px!important;
+    margin-bottom:0px!important;
+    padding-top:96px!important;
+    background-repeat: no-repeat;  
+    background-position: left top;    
+    
+}
+
+
+.equipe {
+    height: 484px;
+}
