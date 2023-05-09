@@ -64,10 +64,16 @@ h3 {
     font-size:30px;
     line-height:36px;
     text-decoration: none;
+    font-style: normal;
 }
 
 .equipe h3 {
     color:#000000;
+}
+
+.formblock h3 {
+    color:#000000;
+    margin-top:66px;
 }
 
 h4 {
@@ -155,6 +161,10 @@ h4 {
 /* theme margin under figures */
 .wp-block-column.is-layout-flow figure{
     margin-bottom:0px;   
+ }
+
+ #container {
+    margin-bottom:-15px!important;   
  }
 
 
@@ -342,7 +352,8 @@ ul#menu-navigation li a:hover{
 
 .textfield {
     height:237px;
-    margin:auto;
+   
+    
 }
 
 .submitbutton {
@@ -365,4 +376,65 @@ ul#menu-navigation li a:hover{
 
 .submitbutton:hover{   
     text-decoration: underline;
+}
+
+.middleform {
+   display:flex;
+   flex-direction: column;
+   align-items: center;
+}
+
+
+.formblock {
+    background-image: url(http://planty.local/wp-content/uploads/2023/05/flower2background.png);
+    background-repeat: no-repeat;  
+    background-position: left  bottom 75px; 
+    
+}
+
+/*** Page commander ***/
+
+.greencontainer {
+    padding:0px;
+    height:184px;
+    display:flex;
+    justify-content: center;
+}
+.commandtitle {
+    height:46px;
+    margin-top:66px!important;
+}
+
+.commandtitle h2 {
+    margin:0px;
+}
+
+.votrecommande {
+    height:auto;
+    margin:0px;
+    padding: 0px;
+    display:flex;
+    justify-content: center;
+}
+
+.votre_commande_content {
+    height: 115px;
+    max-width:860px;
+    border-top : 1px solid #ffffff;
+    padding:0px!important;
+}
+
+.fruit {
+    height:auto;
+    margin:0px;
+    padding: 0px;
+    display:flex;
+    justify-content: center;
+}
+
+.fruit_content {
+    height: 128px;
+    max-width:860px;
+    
+    padding:0px!important;
 }

@@ -6,7 +6,9 @@
     <meta name="viewport" content="width=device-width" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;800&display=swap" rel="stylesheet">
+    <link href="<link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;500;600;700;800&display=swap" rel="stylesheet">
     <?php wp_head(); ?>
 </head>
 
@@ -21,7 +23,7 @@
             </div>
             <nav id="menu" >
                 <?php wp_nav_menu( ); ?>
-                <a href="http://planty.local/" class="commandbutton">
+                <a href="http://planty.local/commander/" class="commandbutton">
                         Commander                   
                 </a>            
             </nav>
