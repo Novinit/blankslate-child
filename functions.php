@@ -54,3 +54,15 @@ function wp_child_theme_register_options_page_form()
 </div>
 <?php
 }
+
+
+/**** Menu for logged in users ***/
+function my_wp_nav_menu_args( $args = '' ) {
+	if( is_user_logged_in() ) { 
+		$args['menu'] = 'logged';
+	} else { 
+		$args['menu'] = 'navigation';
+	} 
+		return $args;
+	}
+	add_filter( 'wp_nav_menu_args', 'my_wp_nav_menu_args' );
