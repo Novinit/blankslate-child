@@ -22,10 +22,12 @@
                 </a>
             </div>
             <nav id="menu" >
-                <?php wp_nav_menu( ); ?>
-                <a href="http://planty.local/commander/" class="commandbutton">
-                        Commander                   
-                </a>            
+                <div class="wp_menu">
+                    <?php wp_nav_menu( ); ?>
+                </div>
+                <div class="header_button">
+                    <a href="http://planty.local/commander/" class="commandbutton"> Commander </a>
+                </div>            
             </nav>
             
         </header>
