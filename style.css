@@ -16,12 +16,14 @@ Text Domain: blankslatechild
 
 body {
     max-width: 1440px;
-    margin:auto;   
+    margin:auto; 
+    
 }
 
 #wrapper {
     background-color: #ECE2DA;
 }
+    
 
 
 
@@ -47,6 +49,13 @@ h2 {
     line-height:46px;
     text-decoration: none;
 }
+
+@media only screen and (max-width: 500px) {
+    h2 {
+        font-size:6vw;
+    }
+}
+
 
 .first_block h2 {
     color:#D2776A; 
@@ -86,7 +95,7 @@ h4 {
     color:#D2776A;
     font-family: 'Syne', sans-serif;
     font-weight:800;
-    text-decoration: uppercase;
+    text-transform: uppercase;
 }
 
 .pensent  {
@@ -171,7 +180,7 @@ h4 {
     min-height: 80px;
     display: flex;
     background-color: #fff;
-    max-width:100%;
+   width:100%;
 }
 
 
@@ -199,7 +208,7 @@ h4 {
     height:19px
 }
 
-@media only screen and (max-width: 700px) {
+@media only screen and (max-width: 820px) {
     #header {
         display:flex;
         flex-direction: column;
@@ -250,6 +259,8 @@ h4 {
     background-color:#ECE2DA;
     border-radius: 50% / 0 0 100% 100%;
 }
+
+
 
 
 /*** Main menu styling ***/
@@ -445,6 +456,12 @@ ul#menu-logged li a:hover{
     margin-bottom:22px;
 }
 
+@media only screen and (max-width: 400px) {
+    .fieldstandard {
+        width:85%;
+    }
+}
+
 .textfield {
     height:237px;
    
@@ -489,11 +506,16 @@ ul#menu-logged li a:hover{
 
 /*** Page commander ***/
 
+.entry-content {min-width: 100%!important;}
+
+
 .greencontainer {
     padding:0px;
     height:184px;
     display:flex;
     justify-content: center;
+    
+   
 }
 .commandtitle {
     height:46px;
@@ -516,12 +538,14 @@ ul#menu-logged li a:hover{
     padding: 0px;
     display:flex;
     justify-content: center;
+    margin-bottom:-1px;
 }
 
 .votre_commande_content {
     height: 115px;
     max-width:860px;
     border-top : 1px solid #ffffff;
+    border-bottom : 1px solid #3B8E46;
     padding:0px!important;
 }
 
@@ -553,9 +577,9 @@ ul#menu-logged li a:hover{
     display: flex;    
     flex-wrap: wrap;    
     justify-content: space-between;
-    
+    }
 
-}
+
 
 
 .fruitblock {
@@ -564,7 +588,9 @@ ul#menu-logged li a:hover{
     justify-content: space-between;
     height:200px;
     min-width:193px;
+    margin:auto;
     margin-top:20px;
+
    
 }
 
@@ -757,6 +783,15 @@ label  {
     padding-right:45px;
 }
 
+@media only screen and (max-width: 390px) {
+    .informations h3 {
+        font-size:6vw;
+    }
+    .livraison h3 {
+        font-size:6vw;
+    }
+}
+
 .livraison {
     height:auto;
     width:50%;
@@ -770,11 +805,12 @@ label  {
         width:100%;
     }
     .livraison {
-        
+        width:100%;
         border:none;
     }
     .informations{
         padding:45px;
+        width:100%;
         
     }
 }
@@ -787,6 +823,14 @@ label  {
     border-radius:7px;
     margin-top:13px;
     margin-bottom:5px;
+}
+
+@media only screen and (max-width: 500px) {
+    .inputfield{
+        width:90%;
+
+    }
+
 }
 
 
