@@ -25,10 +25,6 @@ body {
 }
     
 
-
-
-
-
 /*** Fonts ***/
 
 
@@ -162,6 +158,9 @@ h4 {
 .no_padding {
     padding:0px!important;
 }
+
+
+
 
 /* theme margin under figures */
 .wp-block-column.is-layout-flow figure{
